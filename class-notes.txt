@@ -1,0 +1,16 @@
+HTML Tag Categories
+
+1. Document Tags:  <html><head><body>
+                   <title>
+                   <meta>
+                   <link><style>
+                   <script>
+2. Document Strcuture Tags: div, section, article, aside
+3. Text Formating Tags : h1,h2,h3,h4,h5,h6,p,span,i,b,strong
+4. Link Tags:  <a></a>
+5. List Tags: <ul><ol><li>
+6. Images   : <img/>
+7. Table Tags:  <table><thead><tbody><tr><th><td>
+8. Form Tags : <form><label><input/> <button><textarea>
+9. Frame Tags: <iframe>
+10.HTML 5 New Tags: address, mark, figure, caption, nav, audio,video, svg, canvas
