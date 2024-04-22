@@ -14,3 +14,27 @@ HTML Tag Categories
 8. Form Tags : <form><label><input/> <button><textarea>
 9. Frame Tags: <iframe>
 10.HTML 5 New Tags: address, mark, figure, caption, nav, audio,video, svg, canvas
+
+
+
+HTML form validation Attributes:
+
+required
+readonly
+dispable
+
+value
+placeholder
+
+min
+max
+
+minlength
+maxlenght
+
+tabindex
+
+name
+id
+
+pattern
