@@ -38,3 +38,22 @@ name
 id
 
 pattern
+
+HTML 5 - New featues and New Tags
+=================================
+
+mark 
+address 
+figure 
+caption 
+audio 
+video 
+
+nav 
+header 
+footer 
+
+<input/> - new attrubute values added 
+
+?
+What is dataset Tag in html? write example?
