@@ -59,3 +59,24 @@ footer
 What is dataset Tag in html? write example?
 
 CSS,Bootstrap?
+
+
+
+CSS selector?
+type of selector?
+1.Tag / element selector
+2.Group of Tag/Element 
+3.Class Selector    . 
+4.Id Selector       # 
+
+5.Group of tag, class and it selector
+
+6.Attribute selector   []
+7.Universal Selector  * 
+
+Rule 1 : Styles are applied Top to buttom/
+         Nearest Style has highest prority 
+
+
+Rule 2 : inline css> id selector > class Selector > Tag / element selector
+         Based CSS selector - specificity 
