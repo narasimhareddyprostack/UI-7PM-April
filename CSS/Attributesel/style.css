@@ -1,0 +1,17 @@
+a{
+    background-color: red;
+}
+
+a[target]{
+    background-color: yellow;
+}
+.abc{
+    background-color: yellow;
+}
+#xyz{
+    background-color: blue;
+}
+*{
+  font-style: italic;  
+  
+}
