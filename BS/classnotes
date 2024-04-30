@@ -1,0 +1,23 @@
+Bootstarap Component/componnet - piece of reusable styles 
+=======================
+alert 
+button 
+card          - .card{}  .card-header{} .card-body{}
+carousel 
+form          - .form-group{}  .form-control{} 
+table         - .table{}
+list          - .list-group{} .list-group-item{}
+navbar        - .navbar{} .bg-dark{} .navbar-dark{} .navbar-brand{}
+progress 
+pagination 
+spinner 
+toast 
+================================================
+Bootstrap is based on grid?
+grid vs flex 
+what is grid? row and cols 
+
+.row{} 
+.col{}
+
+Each row divide into 12 columsn 
