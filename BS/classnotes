@@ -7,7 +7,7 @@ carousel
 form          - .form-group{}  .form-control{} 
 table         - .table{}
 list          - .list-group{} .list-group-item{}
-navbar        - .navbar{} .bg-dark{} .navbar-dark{} .navbar-brand{}
+navbar        - .navbar{} .bg-dark{} .navbar-dark{} .navbar-brand{} .navbar-link{}
 progress 
 pagination 
 spinner 
