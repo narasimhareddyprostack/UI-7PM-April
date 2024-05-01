@@ -1,17 +1,18 @@
 Bootstarap Component/componnet - piece of reusable styles 
 =======================
 alert 
-button 
+button        - btn btn-colorcode
 card          - .card{}  .card-header{} .card-body{}
-carousel 
+carousel/slider      -
 form          - .form-group{}  .form-control{} 
 table         - .table{}
 list          - .list-group{} .list-group-item{}
 navbar        - .navbar{} .bg-dark{} .navbar-dark{} .navbar-brand{}
-progress 
-pagination 
-spinner 
-toast 
+progress bar  - .progress{}  .progress-bar{}
+pagination    - 
+spinner       - loader
+toast         -
+breadcrumb   - 
 ================================================
 Bootstrap is based on grid?
 grid vs flex 
