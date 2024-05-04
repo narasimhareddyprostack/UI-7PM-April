@@ -3,16 +3,16 @@ Bootstarap Component/componnet - piece of reusable styles
 alert 
 button        - btn btn-colorcode
 card          - .card{}  .card-header{} .card-body{}
-carousel/slider      -
+carousel/slider - .carousel{} .carousel-inner{} .carousel-item{}
 form          - .form-group{}  .form-control{} 
 table         - .table{}
 list          - .list-group{} .list-group-item{}
 navbar        - .navbar{} .bg-dark{} .navbar-dark{} .navbar-brand{}
 progress bar  - .progress{}  .progress-bar{}
-pagination    - 
+pagination    -  JS
 spinner       - loader
 toast         -
-breadcrumb   - 
+breadcrumb   - few styles
 ================================================
 Bootstrap is based on grid?
 grid vs flex 
@@ -22,3 +22,30 @@ what is grid? row and cols
 .col{}
 
 Each row divide into 12 columsn 
+
+
+===============
+carousel 
+
+1)images 1400*600
+    https://www.pexels.com/
+
+
+2)write carousel component 
+
+    .carousel
+       .carousel-inner 
+         .carousel-item
+         .carousel-item
+         .carousel-item
+
+3)add required JS plugin / CDN Links 
+  Bootstarap.css 4.6
+  Bootstarap.js  4.6
+  popper.js        
+  jquery CDN link 
+
+4)add jquery code snippet to slide your sources/images
+  <script>
+    $().carousel({interval:2000})
+  </script>
