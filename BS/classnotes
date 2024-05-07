@@ -8,11 +8,10 @@ form          - .form-group{}  .form-control{}
 table         - .table{}
 list          - .list-group{} .list-group-item{}
 navbar        - .navbar{} .bg-dark{} .navbar-dark{} .navbar-brand{}
-progress bar  - .progress{}  .progress-bar{}
-pagination    -  JS
-spinner       - loader
-toast         -
-breadcrumb   - few styles
+progress 
+pagination 
+spinner 
+toast 
 ================================================
 Bootstrap is based on grid?
 grid vs flex 
