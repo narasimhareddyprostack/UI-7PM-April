@@ -1,0 +1,6 @@
+Javascript - Identifier Rules:
+1)Identifer should contains - a-z,A-Z,0-9, $,_
+2)Should not starts with digits - 0-9
+3)Should not use any special symbols/char 
+4)should not use any keywords as a identifies
+5)Identifer are case-sensitive.

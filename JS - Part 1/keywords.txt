@@ -1,0 +1,13 @@
+Data Type  : true,false,null,undefined
+variables  : var,let,const
+function   : function, return, continue,delete
+Iterative  : if,else,switch,case,break,default,
+             for,while,do, of , in 
+
+OOP        : class,new,this,extends,implements
+	      void,with
+	      
+	      Public,private,protected
+EH         : try,catch,finally, throw,thows
+ES 6       : import,export,async and await
+
