@@ -4,3 +4,24 @@ Javascript - Identifier Rules:
 3)Should not use any special symbols/char 
 4)should not use any keywords as a identifies
 5)Identifer are case-sensitive.
+
+
+
+true/fasle - reserved literal 
+undefined  - a data type - varaible value is not initilized 
+null       - special keyword - nothig/ null value 
+
+symbol 
+bigint 
+
+
+
+JS - Array
+
+- group of values/element as one entity 
+- where allowd duplicates 
+- where allowed heterogeneous elements 
+- store based indexing 
+- insertion order preserved.
+- iterable object 
+
