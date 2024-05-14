@@ -24,4 +24,21 @@ JS - Array
 - store based indexing 
 - insertion order preserved.
 - iterable object 
+   for(){}, 
+   while(){},
+   do{}while(),
+   for - of 
 
+JS - Object:
+ - group of key:value pairs as one entity.
+ - duplicate keys are not allowed but duplicate values are allowed 
+ - indexing concept is not applicable.
+ - Insertion order no gurantee.
+ - Js - Object is not iterable
+   for - in 
+
+ ** group of key:value pairs as one entity.
+ **  group of properties as one entity.
+     property name:property value 
+ ** group of data and functionality as one entity.
+ 
