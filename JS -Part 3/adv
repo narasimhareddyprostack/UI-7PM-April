@@ -1,0 +1,9 @@
+1)consice/shorted code - improve the code readability
+2)implicit return 
+3)this  - empty object 
+  this is a pointer, pointing to current object.
+
+4)function hoisting/overriding  conflicts are resolved.
+
+
+router.get("/add",()=>{})

@@ -49,7 +49,20 @@ let users=[{"id":1,"name":"Ernesta","email":"epena0@nba.com","gender":"Female"},
 {"id":49,"name":"Marty","email":"msevitt1c@cbc.ca","gender":"Male"},
 {"id":50,"name":"Lu","email":"lguiu1d@privacy.gov.au","gender":"Female"}]
 
-function display_Data(){
+
+let display_Data = ()=>{
+       let rows=""
+       for(user of users){
+        rows=rows+`<tr>
+                        <td>${user.id}</td>
+                        <td>${user.name}</td>
+                        <td>${user.email}</td>
+                        <td>${user.gender}</td>
+                    </tr>`
+       }
+       document.getElementById('table_Data').innerHTML=rows
+}
+/* function display_Data(){
        // alert('Test Case 123')
        let rows=""
        for(user of users){
@@ -62,4 +75,4 @@ function display_Data(){
        }
        document.getElementById('table_Data').innerHTML=rows
        //document.getElementById('table_Data').innerHTML="GM"
-}
+} */
