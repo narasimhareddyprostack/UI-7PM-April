@@ -1,10 +1,7 @@
 fetch('https://jsonplaceholder.typicode.com/users')
-.then(resp=>resp.json())
-.then(data=>console.log(data))
-
-/* .then((resp)=>{
+.then(function(resp){
     return resp.json()
 })
-.then((data)=>{
+.then(function(data){
     console.log(data)
-}) */
+})
