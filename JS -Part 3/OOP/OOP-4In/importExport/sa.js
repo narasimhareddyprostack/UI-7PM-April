@@ -1,3 +1,4 @@
+import Account from './account'
 class SA extends Account{
     acc_Id;
     acc_Bal=0;
@@ -11,3 +12,6 @@ class SA extends Account{
         return this.acc_Bal - this.min_Bal
     }
 }
+
+let sa1=new SA(101,'Rahul','rg@gmail.com',6000)
+console.log(sa1)
