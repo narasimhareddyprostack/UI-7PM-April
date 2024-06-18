@@ -1,0 +1,41 @@
+What is React JS?
+
+its a open source library for building rich ui.
+Used to develop SPA
+Develop and maintained by META(Facebook).
+Released in 2013.
+Current React Version 19.
+Most popular front end Library along with angular
+
+https://react.dev/
+https://legacy.reactjs.org/
+https://reactnative.dev/
+https://nextjs.org/
+
+
+Pre-Requisites:
+
+Basic -HTML,CSS
+Good understanding of JS with functions.
+JS-ES6 featues
+Asynchronous programing(callback,Promise,async and await)
+Bootstrap
+
+React JS - Road Map and Fundamentals:
+React JS  - Installation
+1.Create First app using - reacta-app and folder structure
+2.application flow
+3.Component deep Drive
+4.apply styles css, inline,interal,external
+5.Add bootstrap library
+6.Props->
+7.State->
+8.Event handling and Event Biding
+  Conditional Rendering/List Rendering
+9.Form Handling
+10.Componet Life cycle
+11.Routing 
+12.Context ApI
+13.React Hooks(10) and custom hooks
+14.Redux and thunk and saga
+15.Product CRUD - Backed Node JS.
