@@ -1,10 +1,10 @@
-import Message from "./Message"
+import CompA from './components/CompA'
 let App = ()=>{
 
     return <div>
                 <h1>App Component</h1>
                 <hr />
-                <Message/>
+               <CompA/>
             </div>
 }
 
