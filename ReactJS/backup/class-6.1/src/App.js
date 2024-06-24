@@ -1,5 +1,5 @@
-import Message from "./components/Message"
-import Counter from "./components/Counter"
+import Message from "./Message"
+import Counter from "./Counter"
 let App = ()=>{
 
     return <div>

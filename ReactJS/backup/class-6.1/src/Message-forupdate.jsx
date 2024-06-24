@@ -1,9 +1,9 @@
 import React from 'react'
 class Message extends React.Component{
-    msg="Hello"
+    msg="Hello"  //convert state object property
     
     gmHandler= ()=>{
-        //console.log("Test Case")
+        console.log("Test Case")
         this.msg = "Good Morining"
         console.log(this.msg)
         this.forceUpdate()
@@ -13,6 +13,7 @@ class Message extends React.Component{
         this.forceUpdate()
     }
     render(){
+        console.log("Render method - 1")
         return <div>
                 <h1>Message</h1>
                 <hr/>
