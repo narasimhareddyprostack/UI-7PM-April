@@ -1,11 +1,11 @@
-import Message from "./Message/Message"
-import User from "./UserList/User"
+import Message from "./components/Message"
+import Counter from "./components/Counter"
 let App = ()=>{
 
     return <div>
                 <h1>App Component</h1>
                 <hr />
-                <User/>
+                <Counter/>
             </div>
 }
 
