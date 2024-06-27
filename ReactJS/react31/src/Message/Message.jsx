@@ -1,23 +1,17 @@
-import React,{useState} from 'react'
+import './message.css'
 let Message = ()=>{
-         
-   let [message,setMessage]=useState("Hello")
+    let msg="GM"
+    let tag_Styles={color:'pink', backgroundColor:'green'}
+    return <div>
+            <h1 style={{color:'red', backgroundColor:'yellow'}}>Message Component</h1>
 
-   let updateHanlder = (value)=>{
-      setMessage(value)
-   }
+            <h2 style={tag_Styles}>Welcome to React World!</h2>
+            
+            <h3 style={tag_Styles}></h3>
+            
+            <h4 className='msgStyles'>{msg}</h4>
 
-   return <div>
-         <h2>Message Component</h2>
-         <h2>Message Value:{message}</h2>
-         <button onClick={updateHanlder.bind(null,"Good Monrining")}>GM</button>
-         <button onClick={updateHanlder.bind(null,"Good Afternoon")}>GA</button>
-         <button onClick={updateHanlder.bind(null,"Good Evening")}>GE</button>
-         <button onClick={()=>{
-            setMessage("Good Night")
-         }}>GN</button>
-         
-      </div>
+            </div>
 }
 
 export default Message
