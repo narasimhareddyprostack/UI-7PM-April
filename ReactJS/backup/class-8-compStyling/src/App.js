@@ -1,11 +1,10 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import Users from './User/Users'
+import Message from "./Message/Message"
 import Navbar from './Navbar/Navbar'
 let App = ()=>{
 
     return <div>
-             <Navbar/>
-             <Users/>
+              <Navbar/>
             </div>
 }
 
