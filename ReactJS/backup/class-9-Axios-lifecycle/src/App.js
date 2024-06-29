@@ -1,11 +1,11 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import Login from './Login/Login'
+import Users from './User/Users'
 import Navbar from './Navbar/Navbar'
 let App = ()=>{
 
     return <div>
              <Navbar/>
-              <Login/>
+             <Users/>
             </div>
 }
 
