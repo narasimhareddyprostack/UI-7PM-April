@@ -5,6 +5,7 @@ import About from './components/About'
 import Services from './components/Services'
 import Contact from './components/Contact'
 import Navbar from './Navbar/Navbar'
+import Users from './components/Users'
 let App = ()=>{
     return <>
             <Router>
@@ -14,6 +15,7 @@ let App = ()=>{
                 <Route path="/about" component={About}/>
                 <Route path="/services" component={Services}/>
                 <Route path="/contact" component={Contact}/>
+                <Route path="/users" component={Users}/>
             </Switch>
             
             </Router>
