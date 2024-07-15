@@ -1,10 +1,32 @@
 import React, { useState } from 'react'
-
+import Axios from 'axios'
 const CreateProduct = () => {
   let [product,setProduct]=useState({name:"","image":"",price:"",qty:"",info:""})
   let changeInput = (event)=>{
     setProduct({ ...product, [event.target.name]:event.target.value})
   }
+  
+  let changeImage = (event)=>{
+    let imageFile = event.target.files[0];
+    let reader = new FileReader();
+    reader.readAsDataURL(imageFile);
+    reader.addEventListener('load',()=>{
+        if(reader.result){
+            setProduct({...product,image:reader.result})
+        }
+    })
+  }
+  let sumbitHandler = (event)=>{
+    let url = 'http://127.0.0.1:5000/api/products/'
+    Axios.post(url,product)
+    .then((response)=>{
+        console.log(response)
+    })
+    .catch((err)=>{
+        console.log(err)
+    })
+  }
+
   return <>
        <div className="container mt-5">
        <pre>{JSON.stringify(product)}</pre>
@@ -15,12 +37,12 @@ const CreateProduct = () => {
             <h3>New Product</h3>
             </div>
             <div className="card-body">
-            <form >
+            <form onSubmit={sumbitHandler}>
                 <div className='form-group'>
                     <input name="name" onChange={changeInput} placeholder='Product Name' type="text" className='form-control' />
                 </div>
                 <div className='form-group'>
-                    <input name="image" type="file" className='form-control' />
+                    <input name="image" onChange={changeImage} type="file" className='form-control' />
                 </div>
                 <div className='form-group'>
                     <input name="price" onChange={changeInput} placeholder='Price' type="number" className='form-control' />
