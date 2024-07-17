@@ -61,7 +61,7 @@ const ProductAdmin = () => {
                                   <td>{product.price}</td>
                                   <td>{product.qty}</td>
                                   <td>
-                                    <Link to={`/update-product/${product._id}`} className='btn btn-warning mr-2'>Update</Link>
+                                    <Link to={`/updateproduct/${product._id}`} className='btn btn-warning mr-2'>Update</Link>
                                     <button onClick={deleteProduct.bind(null,product._id)} className='btn btn-danger'>Delete</button>
                                   </td>
                                </tr>
