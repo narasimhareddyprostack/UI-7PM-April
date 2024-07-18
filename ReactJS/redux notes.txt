@@ -1,0 +1,34 @@
+React View -> Redux Action -> Reducer -> Store-->React View
+
+1.React View(component) to action?
+  how to dispatch an redux-action
+2.How to dispatch action?
+  --using useDispatch hook
+3.what is Redux Action?
+  action is a function, and return actionable object.
+4.action invoke reducer?
+5.what Redux - Reducer?
+   reducer is pure function.
+6.pure vs impure fuction.
+7.Redux reducer - upate/create store.
+8.What is store/redux store.
+9.once store - start is updated, it will reflect back to view.
+
+10.How to handover store to react view.
+11.How to read store(states)?
+   using-useSelector hook
+=================
+Step 1:
+
+npm i @redux-devtools/extension redux react-redux
+
+Step 2: add crome extension - for debug redux stoore
+	Redux dev tools
+
+step 3:
+view - component/Message.jsx
+action - redux/message/message.action.js
+reducer- redux/message/message.reducer.js
+store  - redux/store.js
+
+What is redux action?
