@@ -1,12 +1,17 @@
+//action types
 let GM='GM'
 let GN='GN'
-
-let gmAction = ()=>{
-    console.log("Inside gmAction")
-    return {type:GM}
+let GE='GE'
+//action
+let gmAction =()=>{
+    return { type:GM}
 }
 let gnAction = ()=>{
-    return {type:GN}
+    return { type:GN}
+}
+let geAction = ()=>{
+    return { type:GE}
 }
 
-export {gmAction,gnAction,GM,GN}
+export {gmAction,geAction,gnAction,GM,GE,GN}
+//action is function, it return actionable object.
